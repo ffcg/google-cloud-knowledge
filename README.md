@@ -10,7 +10,7 @@ The links are stored in a csv file. The csv file is then used by a html page.
 
  ```
 git config --global credential.'https://source.developers.google.com'.helper gcloud.sh
-git remote add google https://source.developers.google.com/p/[PROJECT_ID]/r/[REPO_NAME] (git remote add google https://source.developers.google.com/p/daniel-tagt-sbx/static-website)
+git remote add google https://source.developers.google.com/p/[PROJECT_ID]/r/[REPO_NAME] (git remote add google https://source.developers.google.com/p/daniel-tagt-sbx/r/static-website)
 
 git init
 git add .
