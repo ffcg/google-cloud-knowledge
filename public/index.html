@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GCP information demo</title>
+</head>
+<body>
+    <h1>GCP information demo</h1>
+    <h2>Table with links</h2>
+    <div id="CSVTable"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/jquerycsvtotable/jquery.csvToTable.js"></script>
+    
+    <script>
+    $(function() {
+      $('#CSVTable').CSVToTable("https://storage.googleapis.com/daniel-tagt-sbx-static-website-bucket/links.csv");
+    });
+    </script>
+</body>
+</html>
