@@ -93,7 +93,7 @@ If new to terraform check the above terraform links in the [Courses & tutorials 
 
     ```
     Outputs:
-    public_url = "https://storage.googleapis.com/<google-cloud-project-name>-website-bucket/index.html"
+    public_url = "https://storage.googleapis.com/<google-cloud-project-name>-static-website-bucket/index.html"
     ```
 
 ## More labs
