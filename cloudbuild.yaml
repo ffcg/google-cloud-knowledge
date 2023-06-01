@@ -1,6 +1,0 @@
-steps:
-# Copy files to storage bucket
-- name: 'gcr.io/cloud-builders/gsutil'
-  args: ['rsync', './public', 'gs://daniel-tagt-sbx-static-website-bucket']
-options:
-  logging: CLOUD_LOGGING_ONLY
